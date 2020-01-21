@@ -1,0 +1,21 @@
+{
+	"name": "rollup-starter",
+	"version": "0.1.0",
+	"private": true,
+	"devDependencies": {
+		"@babel/core": "7.8.3",
+		"@babel/preset-env": "7.8.3",
+		"@rollup/plugin-commonjs": "11.0.1",
+		"@rollup/plugin-node-resolve": "^7.0.0",
+		"rollup": "^1.29.1",
+		"rollup-plugin-babel": "4.3.3",
+		"rollup-plugin-copy": "^3.2.1",
+		"rollup-plugin-scss": "^2.1.0",
+		"rollup-plugin-serve": "^1.0.1",
+		"rollup-plugin-uglify": "^6.0.4"
+	},
+	"scripts": {
+		"build": "rollup -c",
+		"start": "rollup -c --watch"
+	}
+}
